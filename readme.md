@@ -27,7 +27,7 @@ The API was developed using Serverless framework, wich is hosted as a lambda fun
 
 + Messages.
 
-![](https://mixed-arthurpasqualon.s3.amazonaws.com/Captura+de+Tela+2021-03-16+a%CC%80s+21.30.52.png)
+![](https://mixed-arthurpasqualon.s3.amazonaws.com/RandomMessages.png)
 
 + Details.
 
