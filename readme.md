@@ -33,7 +33,7 @@ The API was developed using Serverless framework, wich is hosted as a lambda fun
 
 ![](https://mixed-arthurpasqualon.s3.amazonaws.com/RandomMessages-1.png)
 
-+ /messages route that returns all messages
++ {GET} /messages route that returns all messages
 
 ## 🚧 WIP and Tech debts 🚧
 
