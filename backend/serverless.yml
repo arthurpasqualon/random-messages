@@ -1,0 +1,27 @@
+service: random-messages
+
+plugins:
+  - serverless-dotenv-plugin
+  - serverless-offline
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  stage: homolog
+  region: us-east-1
+  environment:
+    NODE_ENV: ${opt:stage, self:provider.stage}
+
+functions:
+  getMessages:
+    handler: dist/src/handlers/messages/index.getMessages
+    events:
+      - http:
+          method: get
+          path: messages
+  # postContents:
+  #   handler: dist/src/domains/contents/index.postContents
+  #   events:
+  #     - http:
+  #         method: post
+  #         path: contents

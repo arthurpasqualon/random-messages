@@ -1,0 +1,18 @@
+# library folder
+/node_modules
+# post compilled sucrase folder
+/dist
+# dotenv files
+.env
+# library index file
+yarn.lock
+# VSCode files
+.vscode
+# DS Store
+.DS_Store
+# serverless deployment files
+.serverless
+# tmp files
+/tmp
+# test coverage outputs
+.nyc_output

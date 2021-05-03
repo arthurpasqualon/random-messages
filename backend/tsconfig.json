@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "target": "es5",
+    "lib": [
+      "es2019"
+    ],
+    "composite": true,
+    "strict": true,
+    "baseUrl": "./",
+    "outDir": "dist",
+    "removeComments": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "types": [
+      "node"
+    ],
+    "typeRoots": [
+      "node_modules/@types"
+    ]
+  },
+  "include": [
+    "./src/**/*.ts",
+    "./src/**/*.json",
+    "./tests/**/*.ts",
+  ],
+  "exclude": [
+    "./dist"
+  ]
+}
