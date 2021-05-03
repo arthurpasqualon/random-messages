@@ -32,8 +32,6 @@ function Home() {
     navigate('Detail', {item});
   };
 
-  console.warn(error)
-
   const listData = useMemo(() => {
     if(!data?.messages?.length) return []
     const sorted = data?.messages.sort((a: any, b: any) => a.timestamp.localeCompare(b.timestamp))
