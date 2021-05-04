@@ -39,8 +39,7 @@ The API was developed using Serverless framework, wich is hosted as a lambda fun
 
 ### 👷 Backend
 + CRUD for /messages
-+ Connect API to MongoDB cluster (WIP)
-+ Create error statusCode 
++ Update error statusCode 
 + Add tests (WIP)
 
 ### 👷 Mobile
