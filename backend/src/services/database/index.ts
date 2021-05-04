@@ -1,3 +1,3 @@
-// import DatabaseService from './database.service'
+import DatabaseService from './database.service'
 
-// export default DatabaseService
+export default DatabaseService
