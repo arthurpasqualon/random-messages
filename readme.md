@@ -45,5 +45,5 @@ The API was developed using Serverless framework, wich is hosted as a lambda fun
 ### 👷 Mobile
 + Update android app to not use debug certificate
 + Add other locale options
-+ Update App to display some error if the user has some data and api returns error
++ Update App to display some error if user has any previous data
 
